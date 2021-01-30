@@ -1,22 +1,4 @@
-/*----------------------------------------------
-*
-* [Main Stylesheet]
-*
-* Theme    : NEXGEN
-* Version  : 1.0.0
-* Author   : Codings
-* Support  : codings.dev
-* 
-----------------------------------------------*/
 
-/*----------------------------------------------
-*
-* [Font Import]
-*
-* Poppins : https://fonts.google.com
-* Montserrat : https://fonts.google.com
-*
-----------------------------------------------*/
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800;900&amp;display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&amp;display=swap');
@@ -26,8 +8,8 @@
 [ALL CONTENTS]
 
 1. Reset
-2. General 
-3. Section 
+2. General
+3. Section
 4. Helper Class
 5. Header
 6. Slider
@@ -641,7 +623,7 @@ td {
 section {
     position: relative;
     width: 100%;
-    padding: 130px 0;
+    padding: 100px 0;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -972,7 +954,7 @@ aside {
     color: var(--primary-color);
 }
 
-.sidebar .title {    
+.sidebar .title {
     width: 100%;
     margin-top: 0;
     list-style: none;
@@ -1778,7 +1760,7 @@ header {
     background-color: var(--nav-holder-bg-color);
 }
 
-.navbar {    
+.navbar {
     -webkit-transition: all .15s ease-out 0s!important;
     -o-transition: all .15s ease-out 0s!important;
     -moz-transition: all .15s ease-out 0s!important;
@@ -2360,7 +2342,7 @@ header .navbar-expand .navbar-brand .featured .first {
 }
 
 .full-slider .inner .center,
-.no-slider .inner .center {    
+.no-slider .inner .center {
     width: 100%;
     padding: 3rem 0;
 }
@@ -3369,7 +3351,7 @@ header .navbar-expand .navbar-brand .featured .first {
 
 .btn.smaller, .btn.smaller:active, .btn.smaller:focus {
     width: fit-content;
-    box-sizing: content-box; 
+    box-sizing: content-box;
     margin: 0 5px;
     padding: 7.5px 12.5px;
     display: inline-block;
@@ -4266,7 +4248,7 @@ footer .copyright p {
 
     /* #endregion Header */
 
-    /* #region Slider */   
+    /* #region Slider */
 
     body .full-slider .inner, body .no-slider .inner {
         padding: 0 25px;
@@ -4285,7 +4267,7 @@ footer .copyright p {
     body .no-slider.featured .inner .right:before,
     body .no-slider.featured .inner .right:after {
         content: none;
-    }   
+    }
 
     body .full-slider.featured .inner .left .title,
     body .no-slider.featured .inner .left .title,
@@ -4352,7 +4334,7 @@ footer .copyright p {
     body .columns-1 .bricklayer-column-sizer {
         width: 100%;
     }
-    
+
     body .columns-2 .bricklayer-column-sizer,
     body .columns-3 .bricklayer-column-sizer,
     body .columns-4 .bricklayer-column-sizer,
@@ -4363,8 +4345,8 @@ footer .copyright p {
 
     body .card-columns {
         column-count: 3;
-    }    
-    
+    }
+
     body .card-footer {
         margin: 0;
     }
@@ -4426,7 +4408,7 @@ footer .copyright p {
 
     body .team .quote {
         height: auto;
-    }    
+    }
 
     body .subscribe .items .item {
         padding: 0;
@@ -4468,7 +4450,7 @@ footer .copyright p {
     body .columns-1 .bricklayer-column-sizer {
         width: 100%;
     }
-    
+
     body .columns-2 .bricklayer-column-sizer,
     body .columns-3 .bricklayer-column-sizer,
     body .columns-4 .bricklayer-column-sizer,
@@ -4492,11 +4474,11 @@ footer .copyright p {
     body .slide-content .title {
         font-size: 3rem;
     }
-    
+
     /* #endregion General */
 
     /* #region Helper Class */
-    
+
     body .intro .btn {
         margin-top: 30px;
     }
@@ -4549,16 +4531,16 @@ footer .copyright p {
 
     /* #endregion Header */
 
-    /* #region Slider */    
+    /* #region Slider */
 
-    body .full-slider .slide-content .inner .left, 
+    body .full-slider .slide-content .inner .left,
     body .no-slider .slide-content .inner .left,
-    body .full-slider .slide-content .inner .right, 
+    body .full-slider .slide-content .inner .right,
     body .no-slider .slide-content .inner .right,
-    body .full-slider .slide-content .inner .center, 
+    body .full-slider .slide-content .inner .center,
     body .no-slider .slide-content .inner .center {
         width: 90%;
-    }  
+    }
 
     body .no-slider .slide-content .inner .right.alt {
         width: 100%;
@@ -4591,7 +4573,7 @@ footer .copyright p {
         top: 22%;
     }
 
-    body .full-slider .slide-content .inner .description, 
+    body .full-slider .slide-content .inner .description,
     body .no-slider .slide-content .inner .description {
         max-width: 100%;
         font-size: 1rem;
@@ -4702,15 +4684,15 @@ footer .copyright p {
     body .card-columns {
         column-count: 1;
     }
-    
+
     /* #endregion Feature */
 
     /* #region Modal */
-    
+
     body .modal-body {
         align-items: start;
     }
-    
+
     /* #endregion Modal */
 }
 
@@ -4722,7 +4704,7 @@ footer .copyright p {
     body .slide-content .title {
         font-size: 2.5rem;
     }
-    
+
     /* #endregion General */
 }
 
